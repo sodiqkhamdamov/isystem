@@ -1,0 +1,52 @@
+.current {
+  background-color: $colorDark;
+  .container {
+    .row {
+      .col-xl-8 {
+        h5 {
+          color: white;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 25px;
+          line-height: 35px;
+          margin-top: 50px;
+          padding-right: 129px;
+          letter-spacing: 0.025em;
+        }
+        .row {
+          .col-xl-3 {
+            h6 {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 80px;
+              line-height: 35px;
+              letter-spacing: 0.025em;
+              padding-top: 70px;
+              color: $colorOrange;
+            }
+            p {
+              color: $colorReagularWhite;
+              font-weight: bold;
+              margin: 0;
+              font-size: 16px;
+              line-height: 35px;
+              padding: 12px 0 12px 0;
+              letter-spacing: 0.025em;
+              border-bottom: 3.5px solid #ffcf23;
+              margin-bottom: 70px;
+            }
+          }
+        }
+      }
+      .col-xl-4 {
+        position: relative;
+        img {
+          position: absolute;
+          top: -52px;
+          z-index: 3;
+        }
+      }
+    }
+  }
+}
+// margin-top:-52px;

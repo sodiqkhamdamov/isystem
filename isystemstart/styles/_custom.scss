@@ -1,0 +1,23 @@
+.headerHome {
+  position: relative;
+  background: rgb(255, 255, 255);
+  padding-bottom: 195px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, #101010 50%);
+}
+.leang {
+  color: $colorReagularWhite !important;
+  //   margin-left: 80px;
+}
+.customBtn {
+  background: $colorOrange;
+  border-radius: 8px;
+  padding: 20px 25px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  text-align: center;
+}

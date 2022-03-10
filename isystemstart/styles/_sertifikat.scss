@@ -1,0 +1,73 @@
+.sertifikat {
+  .container {
+    .sert {
+      position: relative;
+      background: $colorOrange;
+      padding: 50px;
+      border-radius: 10px;
+      img {
+        position: absolute;
+        position: absolute;
+        top: 199px;
+        left: 416px;
+      }
+      .row {
+        .col {
+          h4 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 35px;
+            letter-spacing: 0.025em;
+            margin-bottom: 80px;
+          }
+          p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 35px;
+            letter-spacing: 0.025em;
+            margin-bottom: 180px;
+            padding-right: 110px;
+          }
+          .message {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .boxCard {
+              width: 490px;
+              height: 305px;
+              background: #ffffff;
+              overflow: hidden;
+              position: relative;
+              .minus {
+                position: absolute;
+                width: 3px;
+                background: #b2b6bb;
+                height: 597px;
+                transform: rotate(58deg);
+                left: 238px;
+                z-index: 1;
+                bottom: -150px;
+                // border: 1px solid #b2b6bb;
+              }
+              .plus {
+                position: absolute;
+                width: 3px;
+                background: #b2b6bb;
+                height: 597px;
+                -webkit-transform: rotate(58deg);
+                transform: rotate(-58deg);
+                left: 249px;
+                z-index: 2;
+                bottom: -150px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.programming {
+  .container-fluid {
+    .scroll {
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        height: max-content;
+        div {
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            animation: animate 40s linear infinite;
+        span {
+          font-weight: bold;
+          font-size: 50px;
+          line-height: 27px;
+          letter-spacing: 0.025em;
+          color: #000000;
+        }
+      }
+      @keyframes animate {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+      }
+    }
+  }
+}
+
+// .box {
+//     display: flex;
+//     align-items: center;
+//     overflow: hidden;
+//   h3 {
+//     font-weight: bold;
+//     display: flex;
+//     align-items: center;
+//     // display: inline-block;
+//     font-size: 50px;
+//     line-height: 27px;
+//     letter-spacing: 0.025em;
+//     color: #000000;
+//   }
+//   h4 {
+//       @extend h3;
+//       font-size: 40px;
+//   }
+// }
+// .boxs {
+//     h5 {
+//         @extend h3;
+//         font-size: 30px;
+//     }
+//     h6 {
+//         @extend h3;
+//         font-size: 20px;
+//     }
+
+// }

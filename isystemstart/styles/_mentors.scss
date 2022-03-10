@@ -1,0 +1,55 @@
+.mentors {
+  .container {
+    h1 {
+      margin-bottom: 70px;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 10px;
+      align-items: center;
+      letter-spacing: 0.025em;
+    }
+    .owl-carousel {
+      .item {
+        img {
+          width: 100%;
+          height: 350px;
+          border-radius: 10px;
+        }
+        h6 {
+          font-style: normal;
+          font-weight: 800;
+          font-size: 20px;
+          line-height: 25px;
+          letter-spacing: 0.025em;
+          color: #000000;
+          margin: 25px 22px 0 0;
+          padding: 0 106px 30px 0;
+          border-bottom: 1px solid black;
+        }
+        p {
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 25px;
+          letter-spacing: 0.025em;
+          color: #000000;
+          margin-top: 20px;
+          padding-right: 145px;
+        }
+      }
+    }
+    .owl-dots {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .owl-dot {
+        width: 50px;
+        height: 0px;
+        border: 2px solid #000000;
+        margin: 50px 1px 50px 1px;
+        &.active {
+            border: 2px solid #FFCF23;
+        }
+      }
+    }
+  }
+}

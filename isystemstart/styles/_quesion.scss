@@ -1,0 +1,26 @@
+.quetionDirection {
+  .container {
+    .boxes {
+      background-color: $colorDark;
+      padding: 60px 50px 54px 50px;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin-bottom: 80px;
+      h1 {
+        color: $colorReagularWhite;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 27px;
+        letter-spacing: 0.025em;
+        margin-bottom: 54px;
+      }
+      button {
+        span {
+          font-size: 20px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

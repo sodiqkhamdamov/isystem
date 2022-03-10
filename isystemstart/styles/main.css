@@ -1,1 +1,595 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headerHome {
+  position: relative;
+  background: white;
+  padding-bottom: 195px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, #101010));
+  background: linear-gradient(90deg, white 50%, #101010 50%);
+}
+
+.leang {
+  color: #fff !important;
+}
+
+.customBtn {
+  background: #ffcf23;
+  border-radius: 8px;
+  padding: 20px 25px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.personPhoto {
+  position: absolute;
+  width: 60%;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.personPhoto .position-relative {
+  width: 100%;
+  height: 100%;
+}
+
+.personPhoto .position-relative img:nth-child(1) {
+  position: absolute;
+  top: 37px;
+  right: 354px;
+  z-index: 1;
+}
+
+.personPhoto .position-relative img:nth-child(2) {
+  position: absolute;
+  width: 520px;
+  top: 290px;
+  right: 275px;
+  z-index: 2;
+}
+
+.personPhoto .position-relative img:nth-child(3) {
+  position: absolute;
+  top: 366px;
+  right: 0px;
+  z-index: 0;
+}
+
+.personPhoto .position-relative img:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  z-index: 3;
+}
+
+.current {
+  background-color: #000;
+}
+
+.current .container .row .col-xl-8 h5 {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  margin-top: 50px;
+  padding-right: 129px;
+  letter-spacing: 0.025em;
+}
+
+.current .container .row .col-xl-8 .row .col-xl-3 h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  padding-top: 70px;
+  color: #ffcf23;
+}
+
+.current .container .row .col-xl-8 .row .col-xl-3 p {
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  font-size: 16px;
+  line-height: 35px;
+  padding: 12px 0 12px 0;
+  letter-spacing: 0.025em;
+  border-bottom: 3.5px solid #ffcf23;
+  margin-bottom: 70px;
+}
+
+.current .container .row .col-xl-4 {
+  position: relative;
+}
+
+.current .container .row .col-xl-4 img {
+  position: absolute;
+  top: -52px;
+  z-index: 3;
+}
+
+.direction .container h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.025em;
+  padding-top: 130px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.direction .container .dataDirection {
+  width: 60%;
+}
+
+.direction .container .dataDirection p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  margin: 0;
+}
+
+.direction .container .dataBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.direction .container .dataBox .box {
+  width: 48%;
+  padding: 41px;
+  background: #f7f7f5;
+  border-radius: 10px;
+  margin-top: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.direction .container .dataBox .box .row .dataText {
+  margin: 0;
+  padding: 0;
+  height: 162px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.direction .container .dataBox .box .row .dataText h5 {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 0.025em;
+}
+
+.direction .container .dataBox .box .row .dataText p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 0.025em;
+  margin: 0;
+}
+
+.direction .container .dataBox .box .row .right {
+  padding: 0;
+}
+
+.direction .container .dataBox .box .row .right .dataImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.direction .container .dataBox .box .row .right .dataImg img {
+  width: 190px;
+  height: 130px;
+  border-radius: 4.90909px;
+  text-align: end;
+  display: block;
+}
+
+.direction .container .dataDirec p {
+  margin-bottom: 80px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.025em;
+}
+
+.quetionDirection .container .boxes {
+  background-color: #000;
+  padding: 60px 50px 54px 50px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+.quetionDirection .container .boxes h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 27px;
+  letter-spacing: 0.025em;
+  margin-bottom: 54px;
+}
+
+.quetionDirection .container .boxes button span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sertifikat .container .sert {
+  position: relative;
+  background: #ffcf23;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.sertifikat .container .sert img {
+  position: absolute;
+  position: absolute;
+  top: 199px;
+  left: 416px;
+}
+
+.sertifikat .container .sert .row .col h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  margin-bottom: 80px;
+}
+
+.sertifikat .container .sert .row .col p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  margin-bottom: 180px;
+  padding-right: 110px;
+}
+
+.sertifikat .container .sert .row .col .message {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sertifikat .container .sert .row .col .message .boxCard {
+  width: 490px;
+  height: 305px;
+  background: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+.sertifikat .container .sert .row .col .message .boxCard .minus {
+  position: absolute;
+  width: 3px;
+  background: #b2b6bb;
+  height: 597px;
+  -webkit-transform: rotate(58deg);
+          transform: rotate(58deg);
+  left: 238px;
+  z-index: 1;
+  bottom: -150px;
+}
+
+.sertifikat .container .sert .row .col .message .boxCard .plus {
+  position: absolute;
+  width: 3px;
+  background: #b2b6bb;
+  height: 597px;
+  -webkit-transform: rotate(58deg);
+  transform: rotate(-58deg);
+  left: 249px;
+  z-index: 2;
+  bottom: -150px;
+}
+
+.learn .container h1 {
+  margin: 70px 0;
+}
+
+.learn .container .reference {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: -webkit-max-content;
+  grid-auto-rows: max-content;
+  gap: 1rem;
+  width: 30%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 80px;
+}
+
+.learn .container .reference .box {
+  color: white;
+  background: #000000;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.learn .container .reference .box h6 {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.025em;
+  padding: 60px 60px 20px 60px;
+}
+
+.learn .container .reference .box p {
+  font-size: 15px;
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+  padding: 0 52px;
+  margin-bottom: 31px;
+}
+
+.learn .container .reference .box img {
+  padding-bottom: 60px;
+}
+
+.mentors .container h1 {
+  margin-bottom: 70px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.025em;
+}
+
+.mentors .container .owl-carousel .item img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.mentors .container .owl-carousel .item h6 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin: 25px 22px 0 0;
+  padding: 0 106px 30px 0;
+  border-bottom: 1px solid black;
+}
+
+.mentors .container .owl-carousel .item p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-top: 20px;
+  padding-right: 145px;
+}
+
+.mentors .container .owl-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mentors .container .owl-dots .owl-dot {
+  width: 50px;
+  height: 0px;
+  border: 2px solid #000000;
+  margin: 50px 1px 50px 1px;
+}
+
+.mentors .container .owl-dots .owl-dot.active {
+  border: 2px solid #FFCF23;
+}
+
+.programming .container-fluid .scroll {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.programming .container-fluid .scroll div {
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: animate 40s linear infinite;
+          animation: animate 40s linear infinite;
+}
+
+.programming .container-fluid .scroll div span {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 27px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+body {
+  height: 2000vh;
+}
+
+body header .container {
+  width: 1220px !important;
+  padding: 0 !important;
+}
+
+body header .container .navbar {
+  z-index: 8;
+  padding-top: 44px;
+}
+
+body header .container .navbar .container-fluid .collapse ul:nth-child(1) li a {
+  margin-left: 28px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  color: #000 !important;
+}
+
+body header .container .navbar .container-fluid .collapse ul:nth-child(1) li a:hover {
+  border-color: #ffcf23;
+}
+
+body header .container .navbar .container-fluid .collapse ul:nth-child(2) li .leang {
+  margin-left: 60px !important;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  outline: none !important;
+}
+
+body header .container .navbar .container-fluid .collapse ul:nth-child(2) li .leang:hover {
+  border-color: #ffcf23;
+}
+
+body header .container .malumot .col-xl-5 h1 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 76px;
+  letter-spacing: 0.01em;
+  padding-top: 140px;
+  margin-bottom: 40px;
+}
+
+body header .container .malumot .col-xl-5 h1 img:nth-child(1) {
+  margin-left: 25px;
+}
+
+body header .container .malumot .col-xl-5 h1 img:nth-child(2) {
+  margin-left: 85px;
+}
+
+body header .container .malumot .col-xl-5 button {
+  margin-top: 36px;
+}
+
+body header .container .malumot .col-xl-5 button p {
+  display: inline-block;
+  padding-right: 10px;
+  margin: 0;
+}
+
+body header .container .malumot .col-xl-5 button span {
+  font-size: 25px;
+  font-weight: bold !important;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/*# sourceMappingURL=main.css.map */

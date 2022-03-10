@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+$colorOrange: #ffcf23;
+$colorReagularWhite: #fff;
+$colorDark: #000;
+$colorWhite2: #f7f7f5;
+@import "./custom";
+@import "./personPhoto";
+@import "./current";
+@import "./direction";
+@import "./quesion";
+@import "./sertifikat";
+@import "./learn";
+@import "./mentors";
+@import "./programming";
+
+body {
+  height: 2000vh;
+  header {
+    .container {
+      width: 1220px !important;
+      padding: 0 !important;
+      .navbar {
+        // position: fixed;
+        // top: 0;
+        // width: 83%;
+        z-index: 8;
+        padding-top: 44px;
+        .container-fluid {
+          .collapse {
+            ul:nth-child(1) {
+              li {
+                a {
+                  margin-left: 28px !important;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 16px;
+                  line-height: 20px;
+                  border-bottom: 1px solid transparent;
+                  transition: all 0.2s ease;
+                  color: #000 !important;
+                  &:hover {
+                    border-color: $colorOrange;
+                  }
+                }
+              }
+            }
+            ul:nth-child(2) {
+              li {
+                .leang {
+                  margin-left: 60px !important;
+                  font-size: 16px;
+                  line-height: 20px;
+                  border-bottom: 1px solid transparent;
+                  transition: all 0.2s ease;
+                  outline: none !important;
+                  &:hover {
+                    border-color: $colorOrange;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .malumot {
+        .col-xl-5 {
+          h1 {
+            font-weight: 800;
+            font-size: 60px;
+            line-height: 76px;
+            letter-spacing: 0.01em;
+            padding-top: 140px;
+            margin-bottom: 40px;
+            img:nth-child(1) {
+              margin-left: 25px;
+            }
+            img:nth-child(2) {
+              margin-left: 85px;
+            }
+          }
+          button {
+            margin-top: 36px;
+            p {
+              display: inline-block;
+              padding-right: 10px;
+              margin: 0;
+            }
+            span {
+              font-size: 25px;
+              font-weight: bold !important;
+              transform: rotate(-45deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
