@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .headerHome {
   position: relative;
   background: white;
@@ -358,7 +362,7 @@
   grid-auto-rows: -webkit-max-content;
   grid-auto-rows: max-content;
   gap: 1rem;
-  width: 30%;
+  width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 80px;
@@ -704,7 +708,7 @@
           align-items: flex-end;
 }
 
-.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input {
+.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input, .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .formToAdmin .forms form .dropdown-toggle, .helper_content .container .formToAdmin .forms form .row .col-xl-12 .input_group_header .helper_inputs .dropdown-toggle {
   background: #f3f3f3;
   border: 0.3px solid #808080;
   -webkit-box-sizing: border-box;
@@ -721,11 +725,11 @@
   margin-bottom: 10px;
 }
 
-.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#name {
+.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#name, .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .formToAdmin .forms form #name.dropdown-toggle, .helper_content .container .formToAdmin .forms form .row .col-xl-12 .input_group_header .helper_inputs #name.dropdown-toggle {
   width: 500px;
 }
 
-.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#number {
+.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#number, .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .formToAdmin .forms form #number.dropdown-toggle, .helper_content .container .formToAdmin .forms form .row .col-xl-12 .input_group_header .helper_inputs #number.dropdown-toggle {
   margin-right: 11px;
 }
 
@@ -750,34 +754,47 @@
 .headerCorses {
   width: 100%;
   min-height: 100vh;
+  position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 .headerCorses .menu {
   width: 27%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
+  padding-top: 140px;
   background: rgba(255, 207, 35, 0.1);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+}
+
+.headerCorses .menu .d-flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .headerCorses .menu .d-flex h6 {
-  margin-top: 140px;
-  margin-bottom: 0;
   font-style: normal;
-  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 10px;
   letter-spacing: 0.025em;
-  padding: 0 6px !important;
+  padding: 0 6px;
   color: #7f7f7f;
   padding-bottom: 10px;
   border-bottom: 1px solid #7f7f7f;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.headerCorses .menu .d-flex h6:hover {
+  color: #ffcf23;
 }
 
 .headerCorses .menu .d-flex .active {
@@ -798,11 +815,18 @@
   font-size: 20px;
   line-height: 10px;
   letter-spacing: 0.025em;
+  margin-bottom: 30px;
   color: #000000;
+}
+
+.headerCorses .links .row .col-xl-3 ul {
+  padding: 0;
+  margin: 0;
 }
 
 .headerCorses .links .row .col-xl-3 ul li {
   list-style: none;
+  margin-bottom: 15px;
 }
 
 .headerCorses .links .row .col-xl-3 ul li a {
@@ -812,6 +836,116 @@
   letter-spacing: 0.025em;
   color: #000000;
   text-decoration: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.headerCorses .links .row .col-xl-3 ul li a:hover {
+  color: #ffcf23;
+}
+
+.container .formToAdmin {
+  text-align: center;
+}
+
+.container .formToAdmin h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.container .formToAdmin p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+.container .formToAdmin .forms {
+  padding: 16px 40px;
+  background-color: #ffcf23;
+  border-radius: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 81px;
+}
+
+.container .formToAdmin .forms form input, .container .formToAdmin .forms form .dropdown-toggle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  padding: 15px 20px;
+  display: block;
+  width: 470px;
+  background: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.container .formToAdmin .forms form .dropdown-toggle {
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-top: 45px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.container .formToAdmin .forms form .send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  width: 470px;
+  background: #000000;
+  border: 0.5px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 50px;
+  color: #ffcf23;
+}
+
+.container .formToAdmin .forms form .send span {
+  color: #fff;
+  font-size: 26px;
+  padding-left: 15px;
 }
 
 body::-webkit-scrollbar {
@@ -823,9 +957,15 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #000;
-  border-left: 4px solid #ffcf23;
+  background-color: #ffcf23;
   outline: 1px solid #c8ccd1;
+}
+
+input::-webkit-outer-spin-button, .container .formToAdmin .forms form .dropdown-toggle::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+.container .formToAdmin .forms form .dropdown-toggle::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 body header .container {

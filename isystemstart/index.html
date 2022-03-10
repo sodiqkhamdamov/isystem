@@ -34,12 +34,13 @@
                                 <a class="nav-link" href="#">Biz haqimizda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Bog'lanish</a>
+                                <a class="nav-link" href="./pages/makeAlist.html">Bog'lanish</a>
                             </li>
                         </ul>
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link text-white leang" aria-current="page" href="#">Kirish
+                                <a class="nav-link text-white leang" aria-current="page"
+                                    href="./pages/login.html">Kirish
                                     <span>&#8594</span></a>
                             </li>
                             <li class="nav-item">
@@ -339,7 +340,7 @@
     <section class="mentors">
         <div class="container">
             <h1>MENTORLAR</h1>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel owl-theme customCar">
                 <div class="item">
                     <img src="./images/one.png" alt="/">
                     <h6>Azamjon
@@ -554,12 +555,13 @@
                         </div>
                         <div class="helper_inputs">
                             <label for="name"></label>
-                            <input type="text" id="name" name="name" placeholder="Ismingiz">
+                            <input type="text" id="name" required name="name" placeholder="Ismingiz">
                             <div class="input-center">
                                 <label for="number"></label>
-                                <input type="number" id="number" name="number" placeholder="Telefon raqaminigiz">
+                                <input type="number" id="number" required name="number"
+                                    placeholder="Telefon raqaminigiz">
                                 <label for="email"></label>
-                                <input type="email" id="email" name="email" placeholder="E-mail">
+                                <input type="email" id="email" required name="email" placeholder="E-mail">
                             </div>
                             <button type="submit" class="btn submit_btn">Jo'natish
                                 <span class="icon icon-arrow"></span>
@@ -629,7 +631,7 @@
 <script src="./owl-carousel/jquery-3.6.0.min.js"></script>
 <script src="./owl-carousel/owl.carousel.min.js"></script>
 <script>
-    $('.owl-carousel').owlCarousel({
+    $('.customCar').owlCarousel({
         loop: true,
         margin: 10,
         nav: false,

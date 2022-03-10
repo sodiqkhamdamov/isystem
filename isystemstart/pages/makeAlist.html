@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Bog'lanish</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html" aria-current="page">
+                        <img src="../images/Isystem.png" alt="isystem">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./courses.html">Kurslar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">Biz haqimizda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="makeAlist.html">Bog'lanish</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-white blacks leang" aria-current="page" href="#">Kirish
+                                    <span>&#8594</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <a class="btn dropdown-toggle text-white blacks leang" id="dropdownMenuButton1"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Uz
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Ru</a></li>
+                                        <li><a class="dropdown-item" href="#">En</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="formToAdmin">
+            <h2>Hoziroq ro'yxatdan o'ting!</h2>
+            <p>Nimadan boshlashni, qaysi kurs sizga mos kelishini bilmayapsizmi? <br>
+                Bizga murojaat qililng, sizga to'g'ri yo'lni ko'rsatamiz.</p>
+            <div class="forms">
+                <img src="../images/formImg.png" alt="">
+                <form>
+                    <label for="names"></label>
+                    <input id="names" type="text" placeholder="Ismingiz">
+                    <label for="year"></label>
+                    <input id="year" type="number" placeholder="Yoshingiz">
+                    <label for="phone"></label>
+                    <input id="phone" type="number" placeholder="Telefon">
+                    <label for="email"></label>
+                    <input id="email" type="email" placeholder="E-mail">
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Kursni tanlang
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="#">Frontend</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <button class="send" type="submit">Ariza yuborish <span>&#8594</span></button>
+                </form>
+                <img src="../images/formImg2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7">
+                        <div class="d-flex justify-content-between">
+                            <div class="footer_title">
+                                <img src="../icons/isystemFooter.png" alt="isystem_logo_footer">
+                                <a href="Tel:+998 99 882 60 60">
+                                    +998 99 882 60 60
+                                </a>
+                                <a href="Tel:+998 99 884 60 60">
+                                    +998 99 884 60 60
+                                </a>
+                            </div>
+                            <div class="footer_link">
+                                <a href="#">Ariza</a>
+                                <a href="#">Bog'lanish</a>
+                                <a href="#">Biz haqimizda</a>
+                            </div>
+                            <div class="footer_icon">
+                                <div class="d-flex align-items-center">
+                                    <img src="../icons/instagram.png">
+                                    <a href="https://www.instagram.com/isystem.uz/">isystem.uz</a>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="../icons/facebook.png">
+                                    <a href="https://www.facebook.com/isystemjo/">isystem.uz</a>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="../icons/telegram.png">
+                                    <a href="#">isystem.uz</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="footer_location d-flex justify-content-end">
+                            <img src="../icons/location.png" alt="location">
+                            <a
+                                href="https://www.google.ru/maps/place/iSystem+IT+academy/@41.3245741,69.3228332,17z/data=!3m1!4b1!4m5!3m4!1s0x38aef572e5842f55:0xa87fc261e04f75ea!8m2!3d41.3245741!4d69.3250272">Toshkent
+                                shahar
+                                Mirzo Ulugbek tumani
+                                Mustaqillik prospekti
+                                Mirzo Ulugbek ko'ch. 54A</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</html>
