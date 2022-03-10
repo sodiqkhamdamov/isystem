@@ -6,6 +6,8 @@ $colorOrange: #ffcf23;
 $colorReagularWhite: #fff;
 $colorDark: #000;
 $colorWhite2: #f7f7f5;
+
+//home page
 @import "./custom";
 @import "./personPhoto";
 @import "./current";
@@ -15,17 +17,28 @@ $colorWhite2: #f7f7f5;
 @import "./learn";
 @import "./mentors";
 @import "./programming";
+@import "./helper";
 
+//courses page
+@import "./courses";
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #000;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-left: 4px solid #ffcf23;
+  outline: 1px solid rgb(200, 204, 209);
+}
 body {
-  height: 2000vh;
   header {
     .container {
       width: 1220px !important;
       padding: 0 !important;
       .navbar {
-        // position: fixed;
-        // top: 0;
-        // width: 83%;
         z-index: 8;
         padding-top: 44px;
         .container-fluid {
@@ -60,6 +73,9 @@ body {
                     border-color: $colorOrange;
                   }
                 }
+                .blacks {
+                  color: #000 !important;
+                }
               }
             }
           }
@@ -92,6 +108,92 @@ body {
               font-size: 25px;
               font-weight: bold !important;
               transform: rotate(-45deg);
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .footer {
+      background-color: $colorOrange;
+      padding: 50px 0 38px 0;
+      .container {
+        .row {
+          .col-xl-7 {
+            .d-flex {
+              .footer_title {
+                display: flex;
+                flex-direction: column;
+                img {
+                  width: 124px;
+                  height: 44.47px;
+                  margin-bottom: 15.53px;
+                  object-fit: none;
+                }
+                a {
+                  text-decoration: none;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 15px;
+                  line-height: 25px;
+                  letter-spacing: 0.025em;
+                  color: #131637;
+                }
+              }
+              .footer_link {
+                display: flex;
+                flex-direction: column;
+                a {
+                  text-decoration: none;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 15px;
+                  line-height: 25px;
+                  letter-spacing: 0.025em;
+                  color: #131637;
+                  margin-bottom: 1rem;
+                }
+              }
+              .footer_icon {
+                .d-flex {
+                  margin-bottom: 13px;
+                  span {
+                    background: $colorDark;
+                    width: 20px;
+                    height: 20px;
+                  }
+                  a {
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 28px;
+                    letter-spacing: 0.025em;
+                    color: #131637;
+                    margin-left: 15px;
+                  }
+                }
+              }
+            }
+          }
+          .col-xl-5 {
+            .footer_location {
+              img {
+                width: 91.34px;
+                height: 87.56px;
+              }
+              a {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 25px;
+                letter-spacing: 0.025em;
+                text-decoration-line: underline;
+                color: #131637;
+                width: 192px;
+                margin-left: 48.57px;
+              }
             }
           }
         }

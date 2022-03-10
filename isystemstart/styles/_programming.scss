@@ -1,62 +1,120 @@
 .programming {
-  .container-fluid {
-    .scroll {
-        width: 100%;
+  margin-bottom: 65px;
+  .customContainer {
+    .text1 {
+      div {
+        white-space: nowrap;
         display: flex;
-        overflow: hidden;
-        height: max-content;
-        div {
-            white-space: nowrap;
-            display: flex;
-            align-items: center;
-            animation: animate 40s linear infinite;
-        span {
-          font-weight: bold;
-          font-size: 50px;
-          line-height: 27px;
-          letter-spacing: 0.025em;
-          color: #000000;
+        border-bottom: 1px solid black;
+        padding: 17px 0;
+        align-items: center;
+        animation: animate 40s linear infinite;
+
+        &:nth-child(2) {
+          animation: animate2 40s linear infinite;
+          animation-delay: -20s;
         }
       }
+      span {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.025em;
+      }
+    }
+    .text2 {
+      div {
+        white-space: nowrap;
+        display: flex;
+        border-bottom: 1px solid black;
+        padding: 17px 0;
+        align-items: center;
+        animation: animate 30s linear infinite;
+
+        &:nth-child(2) {
+          animation: animate2 30s linear infinite;
+          animation-delay: -15s;
+        }
+      }
+      span {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.025em;
+      }
+    }
+    .text3 {
+      div {
+        white-space: nowrap;
+        display: flex;
+        border-bottom: 1px solid black;
+        padding: 17px 0;
+        align-items: center;
+        animation: animate 30s linear infinite;
+
+        &:nth-child(2) {
+          animation: animate2 30s linear infinite;
+          animation-delay: -15s;
+        }
+      }
+      span {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.025em;
+      }
+    }
+    .text4 {
+      div {
+        white-space: nowrap;
+        display: flex;
+        border-bottom: 1px solid black;
+        padding: 17px 0;
+        align-items: center;
+        animation: animate 24s linear infinite;
+
+        &:nth-child(2) {
+          animation: animate2 24s linear infinite;
+          animation-delay: -12s;
+        }
+      }
+      span {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.025em;
+      }
+    }
+    .scroll {
+      width: 100%;
+      display: flex;
+      overflow: hidden;
+      height: max-content;
+      border-top: 1px solid black;
       @keyframes animate {
-          0% {
-            transform: translateX(100%);
-          }
-          100% {
-            transform: translateX(-100%);
-          }
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes animate2 {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-200%);
+        }
       }
     }
   }
 }
-
-// .box {
-//     display: flex;
-//     align-items: center;
-//     overflow: hidden;
-//   h3 {
-//     font-weight: bold;
-//     display: flex;
-//     align-items: center;
-//     // display: inline-block;
-//     font-size: 50px;
-//     line-height: 27px;
-//     letter-spacing: 0.025em;
-//     color: #000000;
-//   }
-//   h4 {
-//       @extend h3;
-//       font-size: 40px;
-//   }
-// }
-// .boxs {
-//     h5 {
-//         @extend h3;
-//         font-size: 30px;
-//     }
-//     h6 {
-//         @extend h3;
-//         font-size: 20px;
-//     }
-
-// }
