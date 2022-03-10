@@ -26,6 +26,9 @@ $colorWhite2: #f7f7f5;
 // bog'lanish page
 @import "./boglanish/makeAlist";
 
+//about page
+@import "./aboutStyles/about";
+
 body::-webkit-scrollbar {
   width: 10px;
 }
