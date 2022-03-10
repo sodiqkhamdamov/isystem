@@ -1,0 +1,65 @@
+.headerCorses {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  .menu {
+    width: 27%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(255, 207, 35, 0.1);
+    box-sizing: border-box;
+    .d-flex {
+      h6 {
+        margin-top: 140px;
+        margin-bottom: 0;
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 10px;
+        letter-spacing: 0.025em;
+        padding: 0 6px !important;
+        color: #7f7f7f;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #7f7f7f;
+      }
+      .active {
+        color: #000;
+        border-bottom: 2px solid #ffcf23;
+      }
+    }
+  }
+  .links {
+    width: 70%;
+    position: absolute;
+    top: 140px;
+    right: 12px;
+    .row {
+      .col-xl-3 {
+        h6 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 10px;
+          letter-spacing: 0.025em;
+          color: #000000;
+        }
+        ul {
+          li {
+            list-style: none;
+            a {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 10px;
+              letter-spacing: 0.025em;
+              color: #000000;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

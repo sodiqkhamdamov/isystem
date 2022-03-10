@@ -750,15 +750,19 @@
 .headerCorses {
   width: 100%;
   min-height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .headerCorses .menu {
   width: 27%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   background: rgba(255, 207, 35, 0.1);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .headerCorses .menu .d-flex h6 {
@@ -770,15 +774,44 @@
   font-size: 16px;
   line-height: 10px;
   letter-spacing: 0.025em;
-  padding: 0 6px;
-  color: #7F7F7F;
+  padding: 0 6px !important;
+  color: #7f7f7f;
   padding-bottom: 10px;
   border-bottom: 1px solid #7f7f7f;
 }
 
 .headerCorses .menu .d-flex .active {
   color: #000;
-  border-bottom: 2px solid #FFCF23;
+  border-bottom: 2px solid #ffcf23;
+}
+
+.headerCorses .links {
+  width: 70%;
+  position: absolute;
+  top: 140px;
+  right: 12px;
+}
+
+.headerCorses .links .row .col-xl-3 h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.headerCorses .links .row .col-xl-3 ul li {
+  list-style: none;
+}
+
+.headerCorses .links .row .col-xl-3 ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  text-decoration: none;
 }
 
 body::-webkit-scrollbar {

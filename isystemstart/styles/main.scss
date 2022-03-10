@@ -8,19 +8,19 @@ $colorDark: #000;
 $colorWhite2: #f7f7f5;
 
 //home page
-@import "./custom";
-@import "./personPhoto";
-@import "./current";
-@import "./direction";
-@import "./quesion";
-@import "./sertifikat";
-@import "./learn";
-@import "./mentors";
-@import "./programming";
-@import "./helper";
+@import "./homeStyle/custom";
+@import "./homeStyle/personPhoto";
+@import "./homeStyle/current";
+@import "./homeStyle/direction";
+@import "./homeStyle/quesion";
+@import "./homeStyle/sertifikat";
+@import "./homeStyle/learn";
+@import "./homeStyle/mentors";
+@import "./homeStyle/programming";
+@import "./homeStyle/helper";
 
 //courses page
-@import "./courses";
+@import "./coursesStyle/courses";
 
 body::-webkit-scrollbar {
   width: 10px;
