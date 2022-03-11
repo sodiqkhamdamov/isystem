@@ -7,7 +7,7 @@ $colorReagularWhite: #fff;
 $colorDark: #000;
 $colorWhite2: #f7f7f5;
 .hidden {
-  display: none
+  display: none;
 }
 //home page
 @import "./homeStyle/custom";
@@ -28,6 +28,8 @@ $colorWhite2: #f7f7f5;
 
 //about page
 @import "./aboutStyles/about";
+//login page
+@import ".";
 
 body::-webkit-scrollbar {
   width: 10px;

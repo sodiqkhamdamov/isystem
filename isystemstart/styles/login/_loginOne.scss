@@ -1,0 +1,30 @@
+// .loginOne {
+//     background-color: yellow;
+// }
+
+.loginOne {
+  .container {
+    .row {
+      .col {
+        .card {
+          padding: 35px 50px 28px 50px !important;
+          //   width: max-content;
+          h6 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;
+            color: #000000;
+            color: red;
+          }
+          form {
+            input {
+              display: block;
+              width: 300px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
