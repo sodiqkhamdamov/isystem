@@ -1,0 +1,102 @@
+.loginsecond {
+  .container {
+    .row {
+      padding-top: 75px;
+      .col-xl-5 {
+        .card {
+          background-color: #fafafa;
+          padding: 35px 50px 28px 50px !important;
+          border: none;
+          margin-bottom: 200px;
+          width: max-content;
+          h5 {
+            margin-top: 38px;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;
+            color: #000000;
+            span {
+              font-weight: 400;
+              font-size: 25px;
+              line-height: 29px;
+              color: #565656;
+            }
+          }
+          .inpu {
+            display: block;
+            width: 300px;
+            border: none;
+            outline: none;
+            font-weight: 500;
+            font-size: 15px;
+            background-color: transparent;
+            line-height: 19px;
+            padding-bottom: 9px;
+            border-bottom: 0.7px solid rgba(127, 127, 127, 0.5);
+            &:focus {
+              border-bottom: 1px solid #ffcf23;
+            }
+          }
+          .kods {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 19px;
+            margin-top: 10px;
+            color: #000000;
+          }
+          .form-check {
+              margin-bottom: 39px;
+            .form-check-input {
+              margin-right: 69px;
+            }
+            .form-check-label {
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 19px;
+              color: #7f7f7f;
+            }
+          }
+          h6 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            color: #7f7f7f;
+          }
+          .sends {
+            width: 300px !important;
+            margin-top: 40px !important;
+            margin-bottom: 10px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: space-between !important;
+            p {
+              margin: 0;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 10px;
+              letter-spacing: 0.025em;
+              color: #000000;
+            }
+            span {
+              @extend p;
+              color: #fff;
+              font-size: 33px;
+            }
+          }
+          .atmen {
+              background-color: #EFEFEF;
+              span {
+                  color: $colorOrange;
+              }
+          }
+        }
+      }
+    }
+  }
+}

@@ -5,23 +5,102 @@
 .loginOne {
   .container {
     .row {
-      .col {
+      padding-top: 75px;
+      .col-xl-5 {
         .card {
+          background-color: #fafafa;
           padding: 35px 50px 28px 50px !important;
-          //   width: max-content;
+          border: none;
+          margin-bottom: 200px;
+          width: max-content;
           h6 {
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 25px;
             color: #000000;
-            color: red;
           }
           form {
-            input {
+            .inp {
               display: block;
               width: 300px;
+              border: none;
+              outline: none;
+              font-weight: 500;
+              font-size: 15px;
+              background-color: transparent;
+              line-height: 19px;
+              padding-bottom: 9px;
+              border-bottom: 0.7px solid rgba(127, 127, 127, 0.5);
+              &:focus {
+                border-bottom: 1px solid #ffcf23;
+              }
             }
+            .form-check {
+              margin-top: 25px;
+              .form-check-label {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                color: #7f7f7f;
+                .cheks {
+                  color: $colorOrange;
+                }
+              }
+            }
+            .sends {
+              width: 300px !important;
+              margin-top: 40px !important;
+              margin-bottom: 10px !important;
+              display: flex !important;
+              align-items: center !important;
+              justify-content: space-between !important;
+              p {
+                margin: 0;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 10px;
+                letter-spacing: 0.025em;
+                color: #000000;
+              }
+              span {
+                @extend p;
+                color: #fff;
+                font-size: 33px;
+              }
+            }
+          }
+          .error {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #7f7f7f;
+          }
+          .new {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            padding-top: 57px;
+            padding-bottom: 6px;
+            color: #7f7f7f;
+          }
+          .ruyxat {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 19px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #ffcf23;
           }
         }
       }

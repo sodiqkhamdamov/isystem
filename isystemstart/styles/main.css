@@ -104,7 +104,7 @@
   color: #ffcf23;
 }
 
-.current .container .row .col-xl-8 .row .col-xl-3 p {
+.current .container .row .col-xl-8 .row .col-xl-3 p, .current .loginOne .container .row .col-xl-8 .row .col-xl-3 .col-xl-5 .card form .sends span, .loginOne .current .container .row .col-xl-8 .row .col-xl-3 .col-xl-5 .card form .sends span, .current .loginOne .container .row .col-xl-5 .card form .sends .col-xl-8 .row .col-xl-3 span, .loginOne .current .container .row .col-xl-5 .card form .sends .col-xl-8 .row .col-xl-3 span, .current .loginsecond .container .row .col-xl-8 .row .col-xl-3 .col-xl-5 .card .sends span, .loginsecond .current .container .row .col-xl-8 .row .col-xl-3 .col-xl-5 .card .sends span, .current .loginsecond .container .row .col-xl-5 .card .sends .col-xl-8 .row .col-xl-3 span, .loginsecond .current .container .row .col-xl-5 .card .sends .col-xl-8 .row .col-xl-3 span {
   color: #fff;
   font-weight: bold;
   margin: 0;
@@ -147,7 +147,7 @@
   width: 60%;
 }
 
-.direction .container .dataDirection p {
+.direction .container .dataDirection p, .direction .loginOne .container .dataDirection .row .col-xl-5 .card form .sends span, .loginOne .direction .container .dataDirection .row .col-xl-5 .card form .sends span, .direction .loginOne .container .row .col-xl-5 .card form .sends .dataDirection span, .loginOne .direction .container .row .col-xl-5 .card form .sends .dataDirection span, .direction .loginsecond .container .dataDirection .row .col-xl-5 .card .sends span, .loginsecond .direction .container .dataDirection .row .col-xl-5 .card .sends span, .direction .loginsecond .container .row .col-xl-5 .card .sends .dataDirection span, .loginsecond .direction .container .row .col-xl-5 .card .sends .dataDirection span {
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -204,7 +204,7 @@
   letter-spacing: 0.025em;
 }
 
-.direction .container .dataBox .box .row .dataText p {
+.direction .container .dataBox .box .row .dataText p, .direction .loginOne .container .dataBox .box .row .dataText .col-xl-5 .card form .sends span, .loginOne .direction .container .dataBox .box .row .dataText .col-xl-5 .card form .sends span, .direction .loginOne .container .dataBox .box .row .col-xl-5 .card form .sends .dataText span, .loginOne .direction .container .dataBox .box .row .col-xl-5 .card form .sends .dataText span, .direction .loginsecond .container .dataBox .box .row .dataText .col-xl-5 .card .sends span, .loginsecond .direction .container .dataBox .box .row .dataText .col-xl-5 .card .sends span, .direction .loginsecond .container .dataBox .box .row .col-xl-5 .card .sends .dataText span, .loginsecond .direction .container .dataBox .box .row .col-xl-5 .card .sends .dataText span {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -238,7 +238,7 @@
   display: block;
 }
 
-.direction .container .dataDirec p {
+.direction .container .dataDirec p, .direction .loginOne .container .dataDirec .row .col-xl-5 .card form .sends span, .loginOne .direction .container .dataDirec .row .col-xl-5 .card form .sends span, .direction .loginOne .container .row .col-xl-5 .card form .sends .dataDirec span, .loginOne .direction .container .row .col-xl-5 .card form .sends .dataDirec span, .direction .loginsecond .container .dataDirec .row .col-xl-5 .card .sends span, .loginsecond .direction .container .dataDirec .row .col-xl-5 .card .sends span, .direction .loginsecond .container .row .col-xl-5 .card .sends .dataDirec span, .loginsecond .direction .container .row .col-xl-5 .card .sends .dataDirec span {
   margin-bottom: 80px;
   font-style: normal;
   font-weight: normal;
@@ -294,7 +294,7 @@
   margin-bottom: 80px;
 }
 
-.sertifikat .container .sert .row .col p {
+.sertifikat .container .sert .row .col p, .sertifikat .loginOne .container .sert .row .col .col-xl-5 .card form .sends span, .loginOne .sertifikat .container .sert .row .col .col-xl-5 .card form .sends span, .sertifikat .loginOne .container .sert .row .col-xl-5 .card form .sends .col span, .loginOne .sertifikat .container .sert .row .col-xl-5 .card form .sends .col span, .sertifikat .loginsecond .container .sert .row .col .col-xl-5 .card .sends span, .loginsecond .sertifikat .container .sert .row .col .col-xl-5 .card .sends span, .sertifikat .loginsecond .container .sert .row .col-xl-5 .card .sends .col span, .loginsecond .sertifikat .container .sert .row .col-xl-5 .card .sends .col span {
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -385,7 +385,7 @@
   padding: 60px 60px 20px 60px;
 }
 
-.learn .container .reference .box p {
+.learn .container .reference .box p, .learn .loginOne .container .reference .box .row .col-xl-5 .card form .sends span, .loginOne .learn .container .reference .box .row .col-xl-5 .card form .sends span, .learn .loginOne .container .row .col-xl-5 .card form .sends .reference .box span, .loginOne .learn .container .row .col-xl-5 .card form .sends .reference .box span, .learn .loginsecond .container .reference .box .row .col-xl-5 .card .sends span, .loginsecond .learn .container .reference .box .row .col-xl-5 .card .sends span, .learn .loginsecond .container .row .col-xl-5 .card .sends .reference .box span, .loginsecond .learn .container .row .col-xl-5 .card .sends .reference .box span {
   font-size: 15px;
   line-height: 25px;
   display: -webkit-box;
@@ -433,7 +433,7 @@
   border-bottom: 1px solid black;
 }
 
-.mentors .container .owl-carousel .item p {
+.mentors .container .owl-carousel .item p, .mentors .loginOne .container .owl-carousel .item .row .col-xl-5 .card form .sends span, .loginOne .mentors .container .owl-carousel .item .row .col-xl-5 .card form .sends span, .mentors .loginOne .container .row .col-xl-5 .card form .sends .owl-carousel .item span, .loginOne .mentors .container .row .col-xl-5 .card form .sends .owl-carousel .item span, .mentors .loginsecond .container .owl-carousel .item .row .col-xl-5 .card .sends span, .loginsecond .mentors .container .owl-carousel .item .row .col-xl-5 .card .sends span, .mentors .loginsecond .container .row .col-xl-5 .card .sends .owl-carousel .item span, .loginsecond .mentors .container .row .col-xl-5 .card .sends .owl-carousel .item span {
   font-weight: 500;
   font-size: 17px;
   line-height: 25px;
@@ -686,7 +686,7 @@
   margin-bottom: 2rem;
 }
 
-.helper_content .container .row .col-xl-12 .input_group_header .helper_title p {
+.helper_content .container .row .col-xl-12 .input_group_header .helper_title p, .helper_content .loginOne .container .row .col-xl-12 .input_group_header .helper_title .col-xl-5 .card form .sends span, .loginOne .helper_content .container .row .col-xl-12 .input_group_header .helper_title .col-xl-5 .card form .sends span, .helper_content .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .input_group_header .helper_title span, .loginOne .helper_content .container .row .col-xl-5 .card form .sends .col-xl-12 .input_group_header .helper_title span, .helper_content .loginsecond .container .row .col-xl-12 .input_group_header .helper_title .col-xl-5 .card .sends span, .loginsecond .helper_content .container .row .col-xl-12 .input_group_header .helper_title .col-xl-5 .card .sends span, .helper_content .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .input_group_header .helper_title span, .loginsecond .helper_content .container .row .col-xl-5 .card .sends .col-xl-12 .input_group_header .helper_title span {
   font-style: normal;
   font-weight: normal;
   font-size: 1rem;
@@ -749,6 +749,16 @@
 .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .submit_btn span {
   background: #ffcf23;
   margin-left: 10px;
+}
+
+@font-face {
+  font-family: Mark;
+  src: url("../MarkPro/Mark Pro.ttf");
+}
+
+@font-face {
+  font-family: Mark-Bold;
+  src: url("../MarkPro/Mark Pro Bold.ttf");
 }
 
 .headerCorses {
@@ -859,7 +869,7 @@
   color: #000000;
 }
 
-.container .formToAdmin p {
+.container .formToAdmin p, .loginOne .container .formToAdmin .row .col-xl-5 .card form .sends span, .loginOne .container .row .col-xl-5 .card form .sends .formToAdmin span, .loginsecond .container .formToAdmin .row .col-xl-5 .card .sends span, .loginsecond .container .row .col-xl-5 .card .sends .formToAdmin span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1099,7 +1109,7 @@
   color: #ffffff;
 }
 
-.section4 .title p {
+.section4 .title p, .section4 .title .loginOne .container .row .col-xl-5 .card form .sends span, .loginOne .container .row .col-xl-5 .card form .sends .section4 .title span, .section4 .title .loginsecond .container .row .col-xl-5 .card .sends span, .loginsecond .container .row .col-xl-5 .card .sends .section4 .title span {
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
@@ -1138,7 +1148,7 @@
   margin-bottom: 30px;
 }
 
-.section5 p {
+.section5 p, .section5 .loginOne .container .row .col-xl-5 .card form .sends span, .loginOne .container .row .col-xl-5 .card form .sends .section5 span, .section5 .loginsecond .container .row .col-xl-5 .card .sends span, .loginsecond .container .row .col-xl-5 .card .sends .section5 span {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -1147,10 +1157,6 @@
   margin-bottom: 50px;
 }
 
-<<<<<<< HEAD
-.loginOne {
-  background-color: yellow;
-=======
 .section5 .owl-theme .item img {
   height: 400px;
 }
@@ -1217,7 +1223,7 @@
   border-bottom: 1px solid #000000;
 }
 
-.section6 p {
+.section6 p, .section6 .loginOne .container .row .col-xl-5 .card form .sends span, .loginOne .container .row .col-xl-5 .card form .sends .section6 span, .section6 .loginsecond .container .row .col-xl-5 .card .sends span, .loginsecond .container .row .col-xl-5 .card .sends .section6 span {
   font-weight: 500;
   font-size: 17px;
   line-height: 25px;
@@ -1250,7 +1256,249 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 10px;
->>>>>>> c69722626241e176e571b02a13cba1fa40904984
+}
+
+.loginOne .container .row {
+  padding-top: 75px;
+}
+
+.loginOne .container .row .col-xl-5 .card {
+  background-color: #fafafa;
+  padding: 35px 50px 28px 50px !important;
+  border: none;
+  margin-bottom: 200px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.loginOne .container .row .col-xl-5 .card h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.loginOne .container .row .col-xl-5 .card form .inp {
+  display: block;
+  width: 300px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: transparent;
+  line-height: 19px;
+  padding-bottom: 9px;
+  border-bottom: 0.7px solid rgba(127, 127, 127, 0.5);
+}
+
+.loginOne .container .row .col-xl-5 .card form .inp:focus {
+  border-bottom: 1px solid #ffcf23;
+}
+
+.loginOne .container .row .col-xl-5 .card form .form-check {
+  margin-top: 25px;
+}
+
+.loginOne .container .row .col-xl-5 .card form .form-check .form-check-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7f7f7f;
+}
+
+.loginOne .container .row .col-xl-5 .card form .form-check .form-check-label .cheks {
+  color: #ffcf23;
+}
+
+.loginOne .container .row .col-xl-5 .card form .sends {
+  width: 300px !important;
+  margin-top: 40px !important;
+  margin-bottom: 10px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.loginOne .container .row .col-xl-5 .card form .sends p, .loginOne .container .row .col-xl-5 .card form .sends span {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.loginOne .container .row .col-xl-5 .card form .sends span {
+  color: #fff;
+  font-size: 33px;
+}
+
+.loginOne .container .row .col-xl-5 .card .error {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+.loginOne .container .row .col-xl-5 .card .new {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  padding-top: 57px;
+  padding-bottom: 6px;
+  color: #7f7f7f;
+}
+
+.loginOne .container .row .col-xl-5 .card .ruyxat {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #ffcf23;
+}
+
+.loginsecond .container .row {
+  padding-top: 75px;
+}
+
+.loginsecond .container .row .col-xl-5 .card {
+  background-color: #fafafa;
+  padding: 35px 50px 28px 50px !important;
+  border: none;
+  margin-bottom: 200px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.loginsecond .container .row .col-xl-5 .card h5 {
+  margin-top: 38px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.loginsecond .container .row .col-xl-5 .card h5 span {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #565656;
+}
+
+.loginsecond .container .row .col-xl-5 .card .inpu {
+  display: block;
+  width: 300px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: transparent;
+  line-height: 19px;
+  padding-bottom: 9px;
+  border-bottom: 0.7px solid rgba(127, 127, 127, 0.5);
+}
+
+.loginsecond .container .row .col-xl-5 .card .inpu:focus {
+  border-bottom: 1px solid #ffcf23;
+}
+
+.loginsecond .container .row .col-xl-5 .card .kods {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.loginsecond .container .row .col-xl-5 .card .form-check {
+  margin-bottom: 39px;
+}
+
+.loginsecond .container .row .col-xl-5 .card .form-check .form-check-input {
+  margin-right: 69px;
+}
+
+.loginsecond .container .row .col-xl-5 .card .form-check .form-check-label {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #7f7f7f;
+}
+
+.loginsecond .container .row .col-xl-5 .card h6 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7f7f7f;
+}
+
+.loginsecond .container .row .col-xl-5 .card .sends {
+  width: 300px !important;
+  margin-top: 40px !important;
+  margin-bottom: 10px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.loginsecond .container .row .col-xl-5 .card .sends p, .loginsecond .loginOne .container .row .col-xl-5 .card form .sends span, .loginOne .loginsecond .container .row .col-xl-5 .card form .sends span, .loginsecond .container .row .col-xl-5 .card .sends span {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.loginsecond .container .row .col-xl-5 .card .sends span {
+  color: #fff;
+  font-size: 33px;
+}
+
+.loginsecond .container .row .col-xl-5 .card .atmen {
+  background-color: #EFEFEF;
+}
+
+.loginsecond .container .row .col-xl-5 .card .atmen span {
+  color: #ffcf23;
 }
 
 body::-webkit-scrollbar {
@@ -1338,7 +1586,7 @@ body header .container .malumot .col-xl-5 button {
   margin-top: 36px;
 }
 
-body header .container .malumot .col-xl-5 button p {
+body header .container .malumot .col-xl-5 button p, body header .loginOne .container .malumot .row .col-xl-5 button .card form .sends span, .loginOne body header .container .malumot .row .col-xl-5 button .card form .sends span, body header .loginOne .container .row .malumot .col-xl-5 button .card form .sends span, .loginOne body header .container .row .malumot .col-xl-5 button .card form .sends span, body header .loginOne .container .malumot .row .col-xl-5 .card form .sends button span, .loginOne body header .container .malumot .row .col-xl-5 .card form .sends button span, body header .loginOne .container .row .malumot .col-xl-5 .card form .sends button span, .loginOne body header .container .row .malumot .col-xl-5 .card form .sends button span, body header .loginsecond .container .malumot .row .col-xl-5 button .card .sends span, .loginsecond body header .container .malumot .row .col-xl-5 button .card .sends span, body header .loginsecond .container .row .malumot .col-xl-5 button .card .sends span, .loginsecond body header .container .row .malumot .col-xl-5 button .card .sends span, body header .loginsecond .container .malumot .row .col-xl-5 .card .sends button span, .loginsecond body header .container .malumot .row .col-xl-5 .card .sends button span, body header .loginsecond .container .row .malumot .col-xl-5 .card .sends button span, .loginsecond body header .container .row .malumot .col-xl-5 .card .sends button span {
   display: inline-block;
   padding-right: 10px;
   margin: 0;
