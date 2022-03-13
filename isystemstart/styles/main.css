@@ -230,12 +230,19 @@
   height: 100%;
 }
 
-.direction .container .dataBox .box .row .right .dataImg img {
+.direction .container .dataBox .box .row .right .dataImg a img {
   width: 190px;
   height: 130px;
   border-radius: 4.90909px;
   text-align: end;
   display: block;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.direction .container .dataBox .box .row .right .dataImg a img:hover {
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
 }
 
 .direction .container .dataDirec p, .direction .loginOne .container .dataDirec .row .col-xl-5 .card form .sends span, .loginOne .direction .container .dataDirec .row .col-xl-5 .card form .sends span, .direction .loginOne .container .row .col-xl-5 .card form .sends .dataDirec span, .loginOne .direction .container .row .col-xl-5 .card form .sends .dataDirec span, .direction .loginsecond .container .dataDirec .row .col-xl-5 .card .sends span, .loginsecond .direction .container .dataDirec .row .col-xl-5 .card .sends span, .direction .loginsecond .container .row .col-xl-5 .card .sends .dataDirec span, .loginsecond .direction .container .row .col-xl-5 .card .sends .dataDirec span {
@@ -749,16 +756,6 @@
 .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .submit_btn span {
   background: #ffcf23;
   margin-left: 10px;
-}
-
-@font-face {
-  font-family: Mark;
-  src: url("../MarkPro/Mark Pro.ttf");
-}
-
-@font-face {
-  font-family: Mark-Bold;
-  src: url("../MarkPro/Mark Pro Bold.ttf");
 }
 
 .headerCorses {
@@ -1499,6 +1496,663 @@
 
 .loginsecond .container .row .col-xl-5 .card .atmen span {
   color: #ffcf23;
+}
+
+.course-content .container .row .col-xl-12 .d-flex {
+  margin: 60px 0;
+  background: #f7f7f5;
+  padding: 70px;
+  border-radius: 10px;
+}
+
+.course-content .container .row .col-xl-12 .d-flex .course_title h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 42px;
+  letter-spacing: 0.025em;
+  color: #000;
+  width: 343px;
+  margin-bottom: 20px;
+}
+
+.course-content .container .row .col-xl-12 .d-flex .course_title p, .course-content .loginOne .container .row .col-xl-12 .d-flex .course_title .col-xl-5 .card form .sends span, .loginOne .course-content .container .row .col-xl-12 .d-flex .course_title .col-xl-5 .card form .sends span, .course-content .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .d-flex .course_title span, .loginOne .course-content .container .row .col-xl-5 .card form .sends .col-xl-12 .d-flex .course_title span, .course-content .loginsecond .container .row .col-xl-12 .d-flex .course_title .col-xl-5 .card .sends span, .loginsecond .course-content .container .row .col-xl-12 .d-flex .course_title .col-xl-5 .card .sends span, .course-content .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .d-flex .course_title span, .loginsecond .course-content .container .row .col-xl-5 .card .sends .col-xl-12 .d-flex .course_title span {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  color: #000;
+  width: 383px;
+  margin-bottom: 61px;
+}
+
+.course-content .container .row .col-xl-12 .d-flex .course_title .main-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffcf23;
+  border-radius: 8px;
+  width: 250px;
+  height: 55px;
+  padding: 25px 35px;
+  margin-top: 1.35rem;
+}
+
+.course-content .container .row .col-xl-12 .d-flex .course_title .main-button .btn_purple {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 5px;
+  color: #000;
+}
+
+.course-content .container .row .col-xl-12 .d-flex .course_title .main-button .btn_purple span {
+  width: 16.25px;
+  height: 16.25px;
+  background-color: #000;
+  margin-left: 10px;
+}
+
+.course-content .container .row .col-xl-12 .d-flex .course_img img {
+  width: 600px;
+  height: 410px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.course-content .container .row .col-xl-12 .course_box {
+  background: #000;
+  color: #fff;
+}
+
+.course-content .container .row .col-xl-12 .course_box p, .course-content .loginOne .container .row .col-xl-12 .course_box .col-xl-5 .card form .sends span, .loginOne .course-content .container .row .col-xl-12 .course_box .col-xl-5 .card form .sends span, .course-content .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .course_box span, .loginOne .course-content .container .row .col-xl-5 .card form .sends .col-xl-12 .course_box span, .course-content .loginsecond .container .row .col-xl-12 .course_box .col-xl-5 .card .sends span, .loginsecond .course-content .container .row .col-xl-12 .course_box .col-xl-5 .card .sends span, .course-content .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .course_box span, .loginsecond .course-content .container .row .col-xl-5 .card .sends .col-xl-12 .course_box span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 5px;
+  letter-spacing: 0.025em;
+  margin: 20px 0 24px 0;
+}
+
+.course-content .container .row .col-xl-12 .course_box h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 5px;
+  letter-spacing: 0.025em;
+}
+
+.course-content .container .row .col-xl-12 .course_box h5 span {
+  font-size: 30px;
+  color: #ffcf23;
+}
+
+.course-content .container .row .col-xl-12 .course_box h5 i {
+  font-style: normal;
+  color: #ffcf23;
+}
+
+main .toWhom .container .row .col-xl-12 .toWhom_title h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-bottom: 70px;
+  width: 445px;
+}
+
+main .toWhom .container .row .col-xl-12 .all-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .toWhom .container .row .col-xl-12 .all-cards .title_card {
+  width: 45%;
+}
+
+main .toWhom .container .row .col-xl-12 .all-cards .title_card .d-flex h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #ffcf23;
+  margin-right: 50px;
+  margin-top: 45px;
+}
+
+main .toWhom .container .row .col-xl-12 .all-cards .title_card .d-flex .min_box h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+main .toWhom .container .row .col-xl-12 .all-cards .title_card .d-flex .min_box p, main .toWhom .loginOne .container .row .col-xl-12 .all-cards .title_card .d-flex .min_box .col-xl-5 .card form .sends span, .loginOne main .toWhom .container .row .col-xl-12 .all-cards .title_card .d-flex .min_box .col-xl-5 .card form .sends span, main .toWhom .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .all-cards .title_card .d-flex .min_box span, .loginOne main .toWhom .container .row .col-xl-5 .card form .sends .col-xl-12 .all-cards .title_card .d-flex .min_box span, main .toWhom .loginsecond .container .row .col-xl-12 .all-cards .title_card .d-flex .min_box .col-xl-5 .card .sends span, .loginsecond main .toWhom .container .row .col-xl-12 .all-cards .title_card .d-flex .min_box .col-xl-5 .card .sends span, main .toWhom .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .all-cards .title_card .d-flex .min_box span, .loginsecond main .toWhom .container .row .col-xl-5 .card .sends .col-xl-12 .all-cards .title_card .d-flex .min_box span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 80px;
+  width: 419px;
+}
+
+main .educational_progress .container .row .col-xl-12 .header_title h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin: 40px 0 70px 0;
+}
+
+main .educational_progress .container .row .col-xl-12 .collect_cards {
+  margin-bottom: 92px;
+}
+
+main .educational_progress .container .row .col-xl-12 .collect_cards .border_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 270px;
+  height: 350px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+main .educational_progress .container .row .col-xl-12 .collect_cards .border_card p, main .educational_progress .loginOne .container .row .col-xl-12 .collect_cards .border_card .col-xl-5 .card form .sends span, .loginOne main .educational_progress .container .row .col-xl-12 .collect_cards .border_card .col-xl-5 .card form .sends span, main .educational_progress .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .collect_cards .border_card span, .loginOne main .educational_progress .container .row .col-xl-5 .card form .sends .col-xl-12 .collect_cards .border_card span, main .educational_progress .loginsecond .container .row .col-xl-12 .collect_cards .border_card .col-xl-5 .card .sends span, .loginsecond main .educational_progress .container .row .col-xl-12 .collect_cards .border_card .col-xl-5 .card .sends span, main .educational_progress .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .collect_cards .border_card span, .loginsecond main .educational_progress .container .row .col-xl-5 .card .sends .col-xl-12 .collect_cards .border_card span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin: 35px 0 0 0;
+  width: 204px;
+}
+
+main .educational_progress .container .row .col-xl-12 .course_program {
+  border: 2px solid #000;
+  border-radius: 25px;
+  padding: 80px 90px 105px 90px;
+}
+
+main .educational_progress .container .row .col-xl-12 .course_program .program_title h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-bottom: 100px;
+}
+
+main .educational_progress .container .row .col-xl-12 .course_program .program_box {
+  border-top: 2px solid #000;
+  padding: 20px 0;
+}
+
+main .educational_progress .container .row .col-xl-12 .course_program .program_box:last-child {
+  border-bottom: 2px solid #000;
+}
+
+main .educational_progress .container .row .col-xl-12 .course_program .program_box .rounded-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #000;
+  text-align: center;
+  color: #ffcf23;
+}
+
+main .educational_progress .container .row .col-xl-12 .course_program .program_box p, main .educational_progress .loginOne .container .row .col-xl-12 .course_program .program_box .col-xl-5 .card form .sends span, .loginOne main .educational_progress .container .row .col-xl-12 .course_program .program_box .col-xl-5 .card form .sends span, main .educational_progress .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .course_program .program_box span, .loginOne main .educational_progress .container .row .col-xl-5 .card form .sends .col-xl-12 .course_program .program_box span, main .educational_progress .loginsecond .container .row .col-xl-12 .course_program .program_box .col-xl-5 .card .sends span, .loginsecond main .educational_progress .container .row .col-xl-12 .course_program .program_box .col-xl-5 .card .sends span, main .educational_progress .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .course_program .program_box span, .loginsecond main .educational_progress .container .row .col-xl-5 .card .sends .col-xl-12 .course_program .program_box span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 5px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin: 0 0 0 40px;
+}
+
+main .helper_content {
+  background: #000;
+  padding: 100px 0;
+  margin: 100px 0 150px 0;
+}
+
+main .helper_content .container .row .col-xl-12 .input_group_header {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+main .helper_content .container .row .col-xl-12 .input_group_header .helper_title {
+  letter-spacing: 0.025em;
+  color: #000;
+}
+
+main .helper_content .container .row .col-xl-12 .input_group_header .helper_title h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 0;
+  width: 447px;
+}
+
+main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input, main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .formToAdmin .forms form .dropdown-toggle, main .helper_content .container .formToAdmin .forms form .row .col-xl-12 .input_group_header .helper_inputs .dropdown-toggle {
+  background: #f3f3f3;
+  border: 0.3px solid #808080;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px 15px;
+  font-family: Mark_Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #7f7f7f;
+  width: 240px;
+  margin-bottom: 10px;
+}
+
+main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#name, main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .formToAdmin .forms form #name.dropdown-toggle, main .helper_content .container .formToAdmin .forms form .row .col-xl-12 .input_group_header .helper_inputs #name.dropdown-toggle {
+  width: 500px;
+}
+
+main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#number, main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .formToAdmin .forms form #number.dropdown-toggle, main .helper_content .container .formToAdmin .forms form .row .col-xl-12 .input_group_header .helper_inputs #number.dropdown-toggle {
+  margin-right: 11px;
+}
+
+main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .submit_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  background-color: #000;
+  padding: 9px 68.44px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .submit_btn span {
+  background: #ffcf23;
+  margin-left: 10px;
+}
+
+main .mentor-content .container .row .col-xl-12 .mentor_title h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-bottom: 70px;
+}
+
+main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards img {
+  border-radius: 10px;
+  width: 100%;
+  height: 349.27px;
+}
+
+main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards h5 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin: 25.79px 0 0 0;
+  width: 141px;
+}
+
+main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards hr {
+  opacity: 1;
+  border: 1px solid #000;
+  margin: 29.94px 0 20px 0;
+}
+
+main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards p, main .mentor-content .loginOne .container .row .col-xl-12 .d-flex .mentor_cards .col-xl-5 .card form .sends span, .loginOne main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards .col-xl-5 .card form .sends span, main .mentor-content .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .d-flex .mentor_cards span, .loginOne main .mentor-content .container .row .col-xl-5 .card form .sends .col-xl-12 .d-flex .mentor_cards span, main .mentor-content .loginsecond .container .row .col-xl-12 .d-flex .mentor_cards .col-xl-5 .card .sends span, .loginsecond main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards .col-xl-5 .card .sends span, main .mentor-content .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .d-flex .mentor_cards span, .loginsecond main .mentor-content .container .row .col-xl-5 .card .sends .col-xl-12 .d-flex .mentor_cards span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin-bottom: 170px;
+}
+
+section .price_course {
+  padding-bottom: 120px;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course {
+  width: 50%;
+  background: rgba(255, 207, 35, 0.1);
+  padding: 60px 70px 26px 70px;
+  height: 531px;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-bottom: 60px;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .nav .nav-item .active {
+  color: #000 !important;
+  border-bottom: 3px solid #ffcf23 !important;
+  margin-top: -1.5px;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .nav .nav-item .nav-link {
+  background: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #7f7f7f;
+  border-radius: unset;
+  border-bottom: 1px solid #7f7f7f;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box {
+  border-top: 1px solid #7f7f7f;
+  padding: 20px 0 10px 0;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box:nth-child(2) {
+  border-bottom: 1px solid #7f7f7f;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .d-flex #chack {
+  width: 14px;
+  height: 14px;
+  border: 50px solid #000;
+  border-radius: unset;
+  margin: 4px 20px 0 0;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .d-flex h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .d-flex h4 span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box p, section .price_course .loginOne .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .col-xl-5 .card form .sends span, .loginOne section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .col-xl-5 .card form .sends span, section .price_course .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .buy_course .tab-content .tab-pane .sum_box span, .loginOne section .price_course .container .row .col-xl-5 .card form .sends .col-xl-12 .buy_course .tab-content .tab-pane .sum_box span, section .price_course .loginsecond .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .col-xl-5 .card .sends span, .loginsecond section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .col-xl-5 .card .sends span, section .price_course .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .buy_course .tab-content .tab-pane .sum_box span, .loginsecond section .price_course .container .row .col-xl-5 .card .sends .col-xl-12 .buy_course .tab-content .tab-pane .sum_box span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin: 0;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson {
+  margin-top: 50px;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson p, section .price_course .loginOne .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson .col-xl-5 .card form .sends span, .loginOne section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson .col-xl-5 .card form .sends span, section .price_course .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson span, .loginOne section .price_course .container .row .col-xl-5 .card form .sends .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson span, section .price_course .loginsecond .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson .col-xl-5 .card .sends span, .loginsecond section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson .col-xl-5 .card .sends span, section .price_course .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson span, .loginsecond section .price_course .container .row .col-xl-5 .card .sends .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #808080;
+  margin-bottom: 10px;
+}
+
+section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson p span, section .price_course .loginOne .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson .col-xl-5 .card form .sends span span, .loginOne section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson .col-xl-5 .card form .sends span span, section .price_course .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson span span, .loginOne section .price_course .container .row .col-xl-5 .card form .sends .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson span span, section .price_course .loginsecond .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson .col-xl-5 .card .sends span span, .loginsecond section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson .col-xl-5 .card .sends span span, section .price_course .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson span span, .loginsecond section .price_course .container .row .col-xl-5 .card .sends .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson span span {
+  color: #000;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types {
+  width: 50%;
+  background: #F7F7F5;
+  padding: 60px 70px 61px 70px;
+  height: 1000px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .bill_title h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-bottom: 60px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .d-flex {
+  width: 340px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .d-flex .bill-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 6.94444px;
+  width: 150px;
+  height: 125px;
+  margin-bottom: 40px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .d-flex .bill-card p, section .price_course .loginOne .container .row .col-xl-12 .bill_types .d-flex .bill-card .col-xl-5 .card form .sends span, .loginOne section .price_course .container .row .col-xl-12 .bill_types .d-flex .bill-card .col-xl-5 .card form .sends span, section .price_course .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .bill_types .d-flex .bill-card span, .loginOne section .price_course .container .row .col-xl-5 .card form .sends .col-xl-12 .bill_types .d-flex .bill-card span, section .price_course .loginsecond .container .row .col-xl-12 .bill_types .d-flex .bill-card .col-xl-5 .card .sends span, .loginsecond section .price_course .container .row .col-xl-12 .bill_types .d-flex .bill-card .col-xl-5 .card .sends span, section .price_course .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .bill_types .d-flex .bill-card span, .loginsecond section .price_course .container .row .col-xl-5 .card .sends .col-xl-12 .bill_types .d-flex .bill-card span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.2px;
+  line-height: 14px;
+  letter-spacing: 0.025em;
+  color: #000;
+  padding-top: 6px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input {
+  margin-top: 10px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input #vaucher {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #7f7f7f;
+  border: none;
+  border-bottom: 1px solid #7f7f7f;
+  background: transparent;
+  width: 100%;
+  padding: 5px 0;
+  outline: none;
+  margin-bottom: 37px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum,
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum {
+  width: 100%;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum p, section .price_course .loginOne .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum .col-xl-5 .card form .sends span, .loginOne section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum .col-xl-5 .card form .sends span, section .price_course .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum span, .loginOne section .price_course .container .row .col-xl-5 .card form .sends .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum span, section .price_course .loginsecond .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum .col-xl-5 .card .sends span, .loginsecond section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum .col-xl-5 .card .sends span, section .price_course .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum span, .loginsecond section .price_course .container .row .col-xl-5 .card .sends .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum span,
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum p,
+section .price_course .loginOne .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum .col-xl-5 .card form .sends span,
+.loginOne section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum .col-xl-5 .card form .sends span,
+section .price_course .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum span,
+.loginOne section .price_course .container .row .col-xl-5 .card form .sends .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum span,
+section .price_course .loginsecond .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum .col-xl-5 .card .sends span,
+.loginsecond section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum .col-xl-5 .card .sends span,
+section .price_course .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum span,
+.loginsecond section .price_course .container .row .col-xl-5 .card .sends .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7f7f7f;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .total_sum {
+  width: 100%;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .total_sum h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000;
+  margin: 7px 0 55px 0;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .total_sum h5 span {
+  font-size: 25px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .buttun_collect {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .buttun_collect button {
+  padding: 10px 43px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 35px;
+  color: #000;
+  border-radius: 10px;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .buttun_collect .buy_btn {
+  background: #ffcf23;
+  letter-spacing: 0.025em;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .buttun_collect .help_btn {
+  border: 1px solid #000;
+}
+
+section .price_course .container .row .col-xl-12 .bill_types .buttun_collect .help_btn span {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  background: #000;
 }
 
 body::-webkit-scrollbar {

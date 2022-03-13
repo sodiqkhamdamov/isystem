@@ -21,15 +21,6 @@ $colorWhite2: #f7f7f5;
 @import "./homeStyle/programming";
 @import "./homeStyle/helper";
 
-@font-face {
-  font-family: Mark;
-  src: url("../MarkPro/Mark\ Pro.ttf");
-}
-@font-face {
-  font-family: Mark-Bold;
-  src: url("../MarkPro/Mark\ Pro\ Bold.ttf");
-}
-
 //courses page
 @import "./coursesStyle/courses";
 // bog'lanish page
@@ -40,6 +31,8 @@ $colorWhite2: #f7f7f5;
 //login page
 @import "../styles/login/loginOne";
 @import "../styles/login/loginsecond";
+//dataScience
+@import "../styles/dataScience/data";
 
 body::-webkit-scrollbar {
   width: 10px;
