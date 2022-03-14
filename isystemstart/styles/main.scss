@@ -21,6 +21,7 @@ $colorWhite2: #f7f7f5;
 @import "./homeStyle/programming";
 @import "./homeStyle/helper";
 
+<<<<<<< HEAD
 @font-face {
   font-family: Mark;
   src: url("../MarkPro/Mark\ Pro.ttf");
@@ -33,6 +34,8 @@ $colorWhite2: #f7f7f5;
   display: none !important;
 }
 
+=======
+>>>>>>> 7d976b9f015bef4c56d886c147b101d1d50c700d
 //courses page
 @import "./coursesStyle/courses";
 // bog'lanish page
@@ -43,6 +46,8 @@ $colorWhite2: #f7f7f5;
 //login page
 @import "../styles/login/loginOne";
 @import "../styles/login/loginsecond";
+//dataScience
+@import "../styles/dataScience/data";
 
 //admin page
 @import "../styles/admin-Panel/admin";

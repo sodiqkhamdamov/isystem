@@ -66,12 +66,18 @@
               justify-content: flex-end;
               width: 100%;
               height: 100%;
-              img {
-                width: 190px;
-                height: 130px;
-                border-radius: 4.90909px;
-                text-align: end;
-                display: block;
+              a {
+                img {
+                  width: 190px;
+                  height: 130px;
+                  border-radius: 4.90909px;
+                  text-align: end;
+                  display: block;
+                  transition: all .2s ease;
+                  &:hover {
+                    box-shadow: 0 0 10px black;
+                  }
+                }
               }
             }
           }
