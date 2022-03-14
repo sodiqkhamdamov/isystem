@@ -29,6 +29,9 @@ $colorWhite2: #f7f7f5;
   font-family: Mark-Bold;
   src: url("../MarkPro/Mark\ Pro\ Bold.ttf");
 }
+.hidden {
+  display: none !important;
+}
 
 //courses page
 @import "./coursesStyle/courses";
@@ -40,6 +43,11 @@ $colorWhite2: #f7f7f5;
 //login page
 @import "../styles/login/loginOne";
 @import "../styles/login/loginsecond";
+
+//admin page
+@import "../styles/admin-Panel/admin";
+@import "../styles/admin-Panel/adminCourse";
+@import "../styles/admin-Panel/adminOption";
 
 body::-webkit-scrollbar {
   width: 10px;
