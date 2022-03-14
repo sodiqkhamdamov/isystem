@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\my Documents\\ISYSTEM\\isystemFirstEmployee"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "isystemstartStartUp"
+  }
+}
